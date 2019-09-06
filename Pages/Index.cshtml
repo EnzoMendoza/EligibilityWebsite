@@ -1,27 +1,71 @@
 @page
-@model AboutMeModel
+@model IndexModel
 @{
-    ViewData["Title"] = "About Me";
+    ViewData["Title"] = "Enzo's Website'";
 }
-<h1>@ViewData["Title"]</h1>
 
-<p>
-    Hello everyone, my name is Enzo Mendoza and I am a senior at FIU majoring in Computer Science.
-    I was first exposed to computer science in high school, taking an AP Computer Science course where I learned Java programming.
-    It was during this class where I decided to have a career in Computer Science. I am currently taking my final two courses to graduate in Fall 2019.
-    My areas of interest include AI technology and software develop
-</p>
-<p>
-    I was born from two Bolivian parents, and I am very proud of my heritage, visiting Bolivia almost every year.
-    In my free time I like to play video games like FIFA and Call of Duty, I also enjoy spending time with friends
-    and playing with my dog. I currently work part-time in retail at The Miami Heat Store in Dolphin Mall, where I spend almost 30 hours a week working.
-</p>
-<div>
-    <img src= https://worldsportlogos.com/wp-content/uploads/2018/03/Miami-Heat-logo.png style="position:absolute; top:325px; left:150px" width="350" height="250" />
+<style type="text/css">
+    .box {
+        width: 250px;
+        padding-top: 5px;
+        border-style: solid;
+        border-color: #336699;
+        border-width: 1px;
+        padding-left: 3px;
+        padding-bottom: 10px;
+    }
+</style>
+
+<div class="text-center">
+    <h1 class="display-4" align ="left">Enzo Mendoza</h1>
+    <img src="https://instagram.fmia1-1.fna.fbcdn.net/vp/226132ec93abde1dc02ce778f4fc1c37/5DFA8C38/t51.2885-19/s320x320/18298755_822117831269126_2495435978194288640_a.jpg?_nc_ht=instagram.fmia1-1.fna.fbcdn.net" align ="left" width="400" height="400" />
 </div>
-<div>
-    <img src=https://img.pngio.com/flag-of-boliviapng-bolivia-flag-png-2000_1333.png style="position:absolute; top:325px; left:500px;" width="250" height="250" />
+
+<div> 
+     <h4 style="position:absolute; top:100px; left:565px">Skills and Abilities</h4>
+     <ul style="position:absolute; top:140px; left:550px; list-style-type:square">
+         <li>Java</li>
+         <li>C</li>
+         <li>Python</li>
+         <li>SQL</li>
+         <li>HTML, Javascript</li>
+     </ul>
 </div>
+
 <div>
-    <img src=https://instagram.fmia1-1.fna.fbcdn.net/vp/22ddda7af6935dd6e7cf56204d513d42/5DF43DAC/t51.2885-15/e35/s1080x1080/67295626_111993966647980_4088368074958374825_n.jpg?_nc_ht=instagram.fmia1-1.fna.fbcdn.net style="position:absolute; top:325px; left:850px;" width="250" height="250" />
+    <h4 style="position:absolute; top:100px; left:950px">Projects</h4>
+    <ul style="position:absolute; top:140px; left:935px; list-style-type:square">
+        <li>
+            <a href= "https://github.com/esocial-fiu/frontend.git">eSocial frontend</a>
+        </li>
+        <li>
+            <a href= "https://github.com/EnzoMendoza/EligibilityWebsite.git">This website</a>
+        </li>
+    </ul>
+
+</div>
+
+<div>
+    <h4 style="position:absolute; top:325px; left:565px">Availability</h4>
+    <ul style="position:absolute; top:365px; left:550px; list-style-type:square">
+        <li>Monday: 4:45-8:00PM</li>
+        <li>Tuesday: 4:45-8:00PM</li> 
+        <li>Wednesday: 4:00-8:00PM</li>
+        <li>Thursday: 10:30-3:00PM</li>
+        <li>Friday: 10:30 - 3:30PM</li>
+        <li>Saturday: Open</li>
+        <li>Sunday: Open</li>
+    </ul>
+</div>
+
+<div>
+    <h4 style="position: absolute; top: 325px; left: 950px">Contact Information</h4>
+    <ul style="position:absolute; top:365px; left:935px; list-style-type:square">
+        <li>
+           <a href="mailto:emend069@fiu.edu"> Email </a> : emend069@fiu.edu
+        </li>
+        <li>
+            Phone: 305-333-4333
+        </li>
+    </ul>
 </div>
